@@ -30,6 +30,12 @@ class State:
        self.previous_bins.append(current_bin.objects_list)
        self.current_bin.objects_list = []
        return 0
+   
+    def is_final(self):
+        if not self.objects_list:
+            return True
+        else:
+            return False
         
 
 

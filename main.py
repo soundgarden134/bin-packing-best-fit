@@ -4,9 +4,11 @@ from classes import Bin
 from classes import State
 
 def transition(state):      #agrega objetos a la maleta correspondiente y los borra de la lista de objetos
-    i = state.find_next_object()
-    state.current_bin.objects_list.append(state.objects_list[i])
-    del state.objects_list[i]
+    new_graph = copy.deepcopy(state)
+    i = new_graph.find_next_object()
+    new_graph.current_bin.objects_list.append(new_graph.objects_list[i])
+    del new_graph.objects_list[i]
+    return new_graph
 
 
 # 17 paquetes de 0.5kg, 8 de 1kg, 10 de 1.5 kg, 9 de 2 kg, 7 de 2.5 kg 2 de 3 kg, 3 de 3.5 kgs, 1 de 4 kg, 4 de 4.5 kgs 5 de 5 kg.  
@@ -49,13 +51,18 @@ print("Lowest number of bins: "+ str(min_bins))
 objects.sort(reverse = True)
 
 state = State(objects)  #inicializa el estado con los objetos iniciales
+bin_graph = []
+bin_graph.append(state)
 
 while len(objects) > 0: #mientras haya objetos, se hacen transiciones
-    transition(state)
+    bin_graph.append(transition(bin_graph[-1]))
+    if (bin_graph[-1].is_final()):
+        break
 
-print("The minimum amount of bins is " + str(state.bin_number))
+    
+
 for i in range(len(state.previous_bins)):
-    print("Bin number "+ str(i+1) + " :" + str(state.previous_bins[i]))
+    print("Bin number "+ str(i+1) + ": " + str(state.previous_bins[i]))
 print("Final bin: "+ str(state.current_bin.objects_list))
 
 
