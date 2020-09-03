@@ -4,11 +4,11 @@ from classes import Bin
 from classes import State
 
 def transition(state):      #agrega objetos a la maleta correspondiente y los borra de la lista de objetos
-    new_graph = copy.deepcopy(state)
-    i = new_graph.find_next_object()
-    new_graph.current_bin.objects_list.append(new_graph.objects_list[i])
-    del new_graph.objects_list[i]
-    return new_graph
+    new_state = copy.deepcopy(state)
+    i = new_state.find_next_object()
+    new_state.current_bin.objects_list.append(new_state.objects_list[i])
+    del new_state.objects_list[i]
+    return new_state
 
 
 # 17 paquetes de 0.5kg, 8 de 1kg, 10 de 1.5 kg, 9 de 2 kg, 7 de 2.5 kg 2 de 3 kg, 3 de 3.5 kgs, 1 de 4 kg, 4 de 4.5 kgs 5 de 5 kg.  
