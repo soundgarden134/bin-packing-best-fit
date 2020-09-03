@@ -1,4 +1,4 @@
-|  									| Nicolás Avendaño  	| Diego Carvallo  	| Matías Morales	| GonzaloVicencio  	|
+|  									| Nicolás Avendaño  	| Diego Carvallo  	| Matías Morales	| Gonzalo Vicencio  	|
 |---	|---	|---	|---	|---	|
 | Nicolás Avendaño  |  --------------			|   								|  							 	|   								|
 | Diego Carvallo  	|   		?							|   	--------------|  							 	|   								|
