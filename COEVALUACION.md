@@ -3,4 +3,4 @@
 | Nicolás Avendaño  |  --------------			|   								|  							 	|   								|
 | Diego Carvallo  	|   		?							|   	--------------|  							 	|   								|
 |  Matías Morales 	|   			7						|   								|  	--------------|   								|
-|  GonzaloVicencio 	|   			7						|   								|  							 	|   --------------	|
+|  Gonzalo Vicencio 	|   			7						|   								|  							 	|   --------------	|
