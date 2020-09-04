@@ -6,15 +6,15 @@ Gonzalo Vicencio   - 32.5%
 
 Nicolás Avendaño
 
-Aspectos a mejorar:
+Aspectos a mejorar: Poca documentación y comentarios 
 
-Aspectos a destacar:
+Aspectos a destacar: Muy buen manejo de python. Es activo y responsable con los tiempos estipulados del proyecto.
 
 Matías Morales
 
-Aspectos a mejorar:
+Aspectos a mejorar: Falta poner mayor presencia en ideas y comunicación.
 
-Aspectos a destacar:
+Aspectos a destacar: Comprometido con el proyecto, buenos aportes y buen compañero de trabajo.
 
 Gonzalo Vicencio 
 
