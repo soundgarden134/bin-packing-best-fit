@@ -10,6 +10,8 @@ Matías Morales
 Aspectos a mejorar:
 Aspectos a destacar:
 
-Gonzalo Vicencio
-Aspectos a mejorar: Practicar más en python
+Gonzalo Vicencio 
+
+Aspectos a mejorar: Practicar más en python 
+
 Aspectos a destacar: Buena participación en los trabajos aportando ideas. Buena disposición para trabajar.
